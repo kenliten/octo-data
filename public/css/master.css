@@ -1,0 +1,44 @@
+/* General styles */
+
+table{
+	margin-top: 16px;
+}
+
+thead{
+	background-color: #5E35B1;
+	color: #fff;
+}
+
+th{
+	border: 1px solid #fff;
+}
+
+/* small screens */
+
+@media (min-width: 576px) {
+	/* styles here */
+}
+
+/* medium screens */
+
+@media (min-width: 768px) {
+	/* styles here */
+}
+
+/* large screens */
+
+@media (min-width: 992px) {
+	/* styles here */
+}
+
+/* extralarge screens */
+
+@media (min-width: 1200px) {
+	/* styles here */
+}
+
+/* printing styles */
+
+@media print {
+	/* styles here */
+}

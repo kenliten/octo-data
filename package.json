@@ -1,0 +1,26 @@
+{
+  "name": "octo-data",
+  "version": "1.0.0",
+  "description": "JavaScript data related practices",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kenliten/octo-data.git"
+  },
+  "keywords": ["data", "analisis", "cleaning", "manipulation", "wrangling"],
+  "author": "kenliten",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/kenliten/octo-data/issues"
+  },
+  "homepage": "https://github.com/kenliten/octo-data#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "debug": "^4.2.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  }
+}
