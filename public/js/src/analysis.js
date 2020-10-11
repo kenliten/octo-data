@@ -32,7 +32,8 @@ Promise.all([
             avg_weight: d.avg_weight
         }
     }),
-    d3.json("/data/employees.json")
+    d3.json("/data/employees.json"),
+    d3.csv("/data/expenses.csv")
 ]).then(function(data){
     // Avoid working with the original data, instead create a clone
     // let copy = _.clone(data, true?) true for deep cloning
